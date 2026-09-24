@@ -18,6 +18,8 @@ The three `boutique-*` photographs in `assets/images` show Charvi Boutique displ
 
 The three `hero-*` images are user-supplied generated campaign artwork. They appear in the Home, Our Story, Collections, Sarees, and Salwars & Kurtis heroes. Each has 640, 1024, and 1536 pixel WebP variants plus a JPEG fallback. Their complete lettering and subjects remain visible at every viewport size; they are separate from the genuine boutique photographs in the gallery.
 
+The user-supplied Charvi logo appears as a compact emblem-and-wordmark lockup in the header and as the complete vertical logo in the footer. The supplied mark is also used for the favicon and touch icon. Transparent, tightly cropped derivatives preserve the original artwork while keeping the navigation readable on small screens.
+
 The product range, 2009 start year, Ballygunge location, primary phone number and quoted review were checked against the [Wanderlog listing](https://wanderlog.com/place/details/10475224/charvi-boutique). The second phone number and social profiles came from the supplied brief. The distinct Chennai ecommerce site with a similar name was not used.
 
 No email address, prices, online checkout, current stock, or custom domain were provided. The enquiry form composes a WhatsApp message in the visitor's browser; it does not store or transmit form data to this site.

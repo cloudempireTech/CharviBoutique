@@ -38,4 +38,17 @@
 @media(max-width:700px){.campaign-stage{width:100%;height:auto;aspect-ratio:1.45;margin:0 auto}.campaign-stage .stage-ring{width:70%;height:auto;aspect-ratio:1;top:-5%;left:8%}.campaign-main{inset:8% 1% auto 1%;padding:6px}.campaign-orb{width:55px;height:55px;bottom:0;right:0}.campaign-art{height:auto;min-height:0;margin-top:33px}.page-hero .campaign-art .campaign-image.page-art-photo{width:100%;padding:5px}.campaign-art .art-circle{width:72%;height:auto;aspect-ratio:1;top:-12%;left:13%}}
 @media(max-width:420px){.campaign-stage{height:auto;aspect-ratio:1.35}.campaign-art{height:auto}}
 @media(prefers-reduced-motion:reduce){.campaign-main,.page-hero .campaign-art .campaign-image.page-art-photo{animation:none!important;transform:none!important}.campaign-main:hover img{transform:none}}
+
+/* Supplied Charvi lockup: original emblem and lettering arranged for navigation. */
+.brand-lockup{gap:5px;align-items:center;transition:transform .3s ease,filter .3s ease}
+.brand-lockup:hover{transform:translateY(-2px);filter:drop-shadow(0 4px 12px rgba(229,185,106,.3))}
+.brand-lockup .brand-emblem{width:66px;height:auto;flex:none}
+.brand-lockup .brand-wordmark{width:128px;height:auto;flex:none;filter:brightness(0) invert(1)}
+.footer-logo{display:block;width:205px;padding:14px;background:#fffaf2;border:1px solid rgba(229,185,106,.45);border-radius:15px;box-shadow:0 20px 40px rgba(0,0,0,.22);transition:transform .3s,box-shadow .3s}
+.footer-logo:hover{transform:translateY(-4px) rotate(-1deg);box-shadow:0 25px 48px rgba(0,0,0,.3)}
+.footer-logo picture,.footer-logo img{display:block;width:100%;height:auto}
+.footer-bottom{padding-right:80px}
+@media(max-width:700px){.brand-lockup .brand-emblem{width:54px}.brand-lockup .brand-wordmark{width:108px}.brand-lockup{gap:3px}.footer-logo{width:190px}}
+@media(max-width:700px){.footer-bottom{padding-right:0}}
+@media(prefers-reduced-motion:reduce){.brand-lockup:hover,.footer-logo:hover{transform:none}}
 .abstract-art{position:absolute;inset:0;display:grid;place-items:center}
